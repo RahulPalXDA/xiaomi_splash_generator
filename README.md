@@ -2,7 +2,7 @@
 
 #### usage example:
 ```bash
-./make_splash.sh -b example/boot.png -f example/fastboot.png -d example/destroyed.png
+./make_splash.sh -b example/boot.png -f example/fastboot.png -d example/destroyed.png -o splash.img
 ```
 ##### The options :
 
