@@ -44,11 +44,12 @@ function short_message() {
 
 function help_usage() {
 	echo
-	echo "USAGE: $0 -b example/boot.png -f example/fastboot.png -d example/destroyed.png"
+	echo "USAGE: $0 -b example/boot.png -f example/fastboot.png -d example/destroyed.png -o splash.img"
 	echo
 	echo "-b : Boot splash image."
 	echo "-f : Fastboot splash image."
 	echo "-d : System Destroyed image."
+	echo "-o : Compiled Splash.img output."
 }
 
 function creating_bmps() {
